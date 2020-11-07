@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#design {
+    background-image: url(../img/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.overly {
+    opacity: .89;
+    background-color: #727272;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.dis {
+    font-weight: 300;
+}
+
+hr {
+    width: 100px;
+    height: 3px;
+}
+
+#john {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+#experience {
+    padding: 100px 0px;
+}
+
+.h-5 {
+    letter-spacing: 3px;
+}
+
+#understand {
+    padding: 100px 0px;
+}
+
+.ami {
+    margin-left: auto;
+}
+
+#remain {
+    padding: 100px 0px;
+}
+
+.rs {
+    margin-bottom: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+#features {
+    padding: 100px 0px;
+}
+
+.h-2 {
+    font-size: 44px;
+    font-weight: 500;
+}
+
+#beautiful {
+    background-image: url(../img/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+.butt {
+    background: #CC2E72;
+    color: #fff;
+    letter-spacing: 3px;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+@media(max-width:995px) {
+    .rs {
+        margin-bottom: 122px;
+    }
+
+    .ami {
+        margin: auto;
+    }
+}
+
+@media(max-width:767px) {
+    overly {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    hr {
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rs {
+        margin-bottom: 0px;
+        float: none !important;
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    .row.px-5 {
+        padding: 0px 0px !important;
+    }
+
+
+    #experience {
+        text-align: center;
+    }
+
+    #understand {
+        text-align: center;
+    }
+
+    #remain {
+        text-align: center;
+    }
+
+    #features {
+        text-align: center;
+    }
+
+    #beautiful {
+        text-align: center;
+    }
+
+}
